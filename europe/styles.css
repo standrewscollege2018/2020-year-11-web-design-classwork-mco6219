@@ -1,0 +1,34 @@
+body {background-color: rgb(128, 191, 255);
+font-family: Arial, Verdana, sans-serif;}
+
+@font-face {font-family: Signature;
+  src: url("Bentho.ttf");}
+
+h1 {font-family: Signature;
+color: rgb(0,0,0);
+margin: 10px;
+font-size: 60px
+}
+
+h2 {font-family: Signature;
+color: rgb(0,0,0);
+margin: 10px;
+font-size: 30px
+}
+
+p {
+color: rgb(0,0,0);
+}
+
+li {
+color: rgb(0,0,0);
+}
+
+a {
+  color: rgb(64,242,255);
+  text-decoration: none;
+}
+
+a:hover {text-decoration: underline;
+  color: rgb(64,242,255);
+}
