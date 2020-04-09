@@ -5,23 +5,24 @@ font-family: Arial, Verdana, sans-serif;}
   src: url("Bentho.ttf");}
 
 h1 {font-family: Signature;
-color: rgb(0,0,0);
+color: rgb(237, 179, 157);
 margin: 10px;
-font-size: 60px
+font-size: 60px;
+text-align: center;
 }
 
 h2 {font-family: Signature;
-color: rgb(0,0,0);
+color: rgb(237, 179, 157);
 margin: 10px;
 font-size: 30px
 }
 
 p {
-color: rgb(0,0,0);
+color: rgb(255,255,255);
 }
 
 li {
-color: rgb(0,0,0);
+color: rgb(255,255,255);
 }
 
 a {
