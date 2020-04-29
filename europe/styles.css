@@ -4,6 +4,18 @@ font-family: Arial, Verdana, sans-serif;}
 @font-face {font-family: Signature;
   src: url("Bentho.ttf");}
 
+.col-container {
+display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.left-col {
+
+}
+
+.right-col {
+
+}
 h1 {font-family: Signature;
 color: rgb(237, 179, 157);
 margin: 10px;
