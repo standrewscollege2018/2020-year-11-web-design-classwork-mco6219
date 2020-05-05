@@ -5,8 +5,10 @@ font-family: Arial, Verdana, sans-serif;}
   src: url("Bentho.ttf");}
 
 .col-container {
+margin-top: 20px;
 display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px
 }
 
 .left-col {
@@ -16,6 +18,19 @@ display: grid;
 .right-col {
 
 }
+
+.content-container {
+display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  column-gap: 30px;
+}
+
+.card {
+border: 1px solid rgb(11,22,33);
+border-radius: 20px;
+padding: 20px;
+}
+
 h1 {font-family: Signature;
 color: rgb(237, 179, 157);
 margin: 10px;
