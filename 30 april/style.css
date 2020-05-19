@@ -1,0 +1,15 @@
+
+
+.banner-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.logo {
+background-color: rgb(122,34,123);
+padding: 20px;
+}
+
+.navbar {
+padding: 20px
+}
