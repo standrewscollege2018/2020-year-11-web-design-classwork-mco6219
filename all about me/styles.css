@@ -1,0 +1,62 @@
+body {background-color: rgb(221, 170, 255);
+font-family: Arial, Verdana, sans-serif;}
+
+@font-face {font-family: Signature;
+  src: url("Moonbright Demo.ttf");}
+
+h1 {font-family: Signature;
+color: rgb(240, 208, 161);
+margin: 10px;
+font-size: 90px;
+text-align: center;
+}
+
+h2 {font-family: Signature;
+color: rgb(240, 208, 161);
+margin: 10px;
+font-size: 50px
+}
+
+p {
+color: rgb(255,255,255);
+}
+
+li {
+color: rgb(255,255,255);
+}
+
+a {
+  color: rgb(240, 208, 161);
+  text-decoration: none;
+}
+
+a:hover {text-decoration: underline;
+  color: rgb(128, 223, 255);
+}
+
+.col-container {
+margin-top: 20px;
+display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px
+}
+
+.left-col {
+
+}
+
+.right-col {
+
+}
+
+.banner {
+  width: 100%;
+  background-color:
+  padding: 20px;
+  text-align: center;
+}
+
+.nav-container {
+  width: 100%;
+  background-color: rgb(122, 120, 120);
+}
