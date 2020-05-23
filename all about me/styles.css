@@ -38,25 +38,18 @@ a:hover {text-decoration: underline;
 margin-top: 20px;
 display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 20px
+  grid-gap: 10px;
 }
 
 .left-col {
-
 }
 
 .right-col {
-
+padding-left: 20px;
+padding-bottom: 20px;
 }
 
-.banner {
-  width: 100%;
-  background-color:
-  padding: 20px;
-  text-align: center;
-}
-
-.nav-container {
-  width: 100%;
-  background-color: rgb(122, 120, 120);
+.image-resize {
+  max-width: 100%;
+  height: auto;
 }
