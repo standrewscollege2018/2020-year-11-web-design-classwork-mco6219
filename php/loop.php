@@ -5,6 +5,22 @@
     <title></title>
   </head>
   <body>
+<?php
+// setting variable $counter
+$counter = 1;
 
+do {
+  // repeat this code while the condition is true
+echo "<p>$counter</p>";
+
+ // increase the counter by 1
+$counter = $counter + 1;
+} while ($counter < 10);
+
+
+
+
+
+ ?>
   </body>
 </html>
