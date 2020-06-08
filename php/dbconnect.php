@@ -3,5 +3,5 @@
 
 // we use the mysqli_connect()
 // this has 4 parameters: location, username, password, db name
-
+$dbconnect = mysqli_connect("localhost", "root", "", "studentdb");
  ?>
