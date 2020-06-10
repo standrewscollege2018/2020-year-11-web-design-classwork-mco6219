@@ -4,10 +4,15 @@
 // we include the dbconnect.php page, this connects this page with the db
 include("dbconnect.php");
 
+// check to see if the user searched on something to come to this page
+if (!isset($_POST['search'])) {
+header("Location: search.php");
+}
+
 // grab the search content from the POST array, and put into a variable
 $search = $_POST['search'];
 
-// there are 3 steps
+// there are 3 steps to running a select query
 // 1. set up the query in a variable, this is what we want from the db
 $result_sql = "SELECT * from student WHERE firstname LIKE '%$search%' OR lastname LIKE '%$search%'";
 
@@ -21,14 +26,22 @@ $result_qry = mysqli_query($dbconnect, $result_sql);
 // aa = associative array
 $result_aa = mysqli_fetch_assoc($result_qry);
 
-// define variables that you are pulling from the db
-$firstname = $result_aa['firstname'];
-$lastname = $result_aa['lastname'];
+// loop through $result_aa to display all results
+do {
+
+  // define variables that you are pulling from the db
+  $firstname = $result_aa['firstname'];
+  $lastname = $result_aa['lastname'];
+?>
+  <!-- display data from the db -->
+  <div class="">
+   <p> <?php echo "$firstname $lastname";
+     ?></p>
+
+  </div>
+
+<?php
+} while () { }
+
 
  ?>
- <!-- display data from the db -->
- <div class="">
-  <p> <?php echo "$firstname $lastname";
-    ?></p>
-
- </div>
