@@ -29,10 +29,10 @@ do {
  // and when you click any tutorcode link it takes you to the page
 // tutorgroup.php, as shown in the href link below
  ?>
-    <a href="tutorgroup.php"><?php echo "$tutorcode" ?></a>
+    <a href="tutorgroup.php?tutorgroupID=<?php echo $tutorgroupID; ?>"><?php echo "$tutorcode" ?></a>
 
 <?php
-$tutorgroupID = $tutorgroupID
+$tutorgroupID = $tutorgroupID;
 
 // the while () condition is just the third step of our process
 // of running the query, it effectively means we repeat the code in the do () part
@@ -41,4 +41,3 @@ $tutorgroupID = $tutorgroupID
 
 
  ?>
-</div>
